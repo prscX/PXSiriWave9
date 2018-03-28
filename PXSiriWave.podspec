@@ -5,6 +5,7 @@ s.summary          = 'iOS: Siri Waveform effect similar to 9'
 
 s.description      = <<-DESC
 iOS: Siri Waveform effect similar to 9
+DESC
 
 s.homepage         = 'https://github.com/prscX/PXSiriWave9'
 s.license          = { :type => 'APACHE', :file => 'LICENSE' }
