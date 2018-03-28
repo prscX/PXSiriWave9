@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 s.name             = 'PXSiriWave'
-s.version          = '0.0.0'
-s.summary          = 'iOS: Siri Waveform effect similar to 9'
+s.version          = '0.0.1'
+s.summary          = 'Siri Waveform effect similar to 9'
 
 s.description      = <<-DESC
 iOS: Siri Waveform effect similar to 9
