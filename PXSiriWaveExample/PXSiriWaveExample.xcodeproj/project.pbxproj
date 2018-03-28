@@ -1,0 +1,375 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE25A63F206B8A6D0092D3DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE25A63E206B8A6D0092D3DC /* AppDelegate.m */; };
+		CE25A642206B8A6D0092D3DC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE25A641206B8A6D0092D3DC /* ViewController.m */; };
+		CE25A645206B8A6D0092D3DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE25A643206B8A6D0092D3DC /* Main.storyboard */; };
+		CE25A647206B8A6D0092D3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE25A646206B8A6D0092D3DC /* Assets.xcassets */; };
+		CE25A64A206B8A6D0092D3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE25A648206B8A6D0092D3DC /* LaunchScreen.storyboard */; };
+		CE25A64D206B8A6D0092D3DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE25A64C206B8A6D0092D3DC /* main.m */; };
+		CE25A65E206B93B20092D3DC /* libPXSiriWave.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25A659206B8ACE0092D3DC /* libPXSiriWave.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE25A658206B8ACE0092D3DC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE25A654206B8ACE0092D3DC /* PXSiriWave.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CE25A625206B8A340092D3DC;
+			remoteInfo = PXSiriWave;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE25A63A206B8A6D0092D3DC /* PXSiriWaveExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PXSiriWaveExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE25A63D206B8A6D0092D3DC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE25A63E206B8A6D0092D3DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE25A640206B8A6D0092D3DC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CE25A641206B8A6D0092D3DC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE25A644206B8A6D0092D3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE25A646206B8A6D0092D3DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE25A649206B8A6D0092D3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE25A64B206B8A6D0092D3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE25A64C206B8A6D0092D3DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE25A654206B8ACE0092D3DC /* PXSiriWave.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PXSiriWave.xcodeproj; path = ../PXSiriWave/PXSiriWave.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE25A637206B8A6D0092D3DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE25A65E206B93B20092D3DC /* libPXSiriWave.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE25A631206B8A6D0092D3DC = {
+			isa = PBXGroup;
+			children = (
+				CE25A63C206B8A6D0092D3DC /* PXSiriWaveExample */,
+				CE25A63B206B8A6D0092D3DC /* Products */,
+				CE25A653206B8ACD0092D3DC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CE25A63B206B8A6D0092D3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE25A63A206B8A6D0092D3DC /* PXSiriWaveExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE25A63C206B8A6D0092D3DC /* PXSiriWaveExample */ = {
+			isa = PBXGroup;
+			children = (
+				CE25A63D206B8A6D0092D3DC /* AppDelegate.h */,
+				CE25A63E206B8A6D0092D3DC /* AppDelegate.m */,
+				CE25A640206B8A6D0092D3DC /* ViewController.h */,
+				CE25A641206B8A6D0092D3DC /* ViewController.m */,
+				CE25A643206B8A6D0092D3DC /* Main.storyboard */,
+				CE25A646206B8A6D0092D3DC /* Assets.xcassets */,
+				CE25A648206B8A6D0092D3DC /* LaunchScreen.storyboard */,
+				CE25A64B206B8A6D0092D3DC /* Info.plist */,
+				CE25A64C206B8A6D0092D3DC /* main.m */,
+			);
+			path = PXSiriWaveExample;
+			sourceTree = "<group>";
+		};
+		CE25A653206B8ACD0092D3DC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE25A654206B8ACE0092D3DC /* PXSiriWave.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE25A655206B8ACE0092D3DC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE25A659206B8ACE0092D3DC /* libPXSiriWave.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE25A639206B8A6D0092D3DC /* PXSiriWaveExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE25A650206B8A6D0092D3DC /* Build configuration list for PBXNativeTarget "PXSiriWaveExample" */;
+			buildPhases = (
+				CE25A636206B8A6D0092D3DC /* Sources */,
+				CE25A637206B8A6D0092D3DC /* Frameworks */,
+				CE25A638206B8A6D0092D3DC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PXSiriWaveExample;
+			productName = PXSiriWaveExample;
+			productReference = CE25A63A206B8A6D0092D3DC /* PXSiriWaveExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE25A632206B8A6D0092D3DC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = PX;
+				TargetAttributes = {
+					CE25A639206B8A6D0092D3DC = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = CE25A635206B8A6D0092D3DC /* Build configuration list for PBXProject "PXSiriWaveExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE25A631206B8A6D0092D3DC;
+			productRefGroup = CE25A63B206B8A6D0092D3DC /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CE25A655206B8ACE0092D3DC /* Products */;
+					ProjectRef = CE25A654206B8ACE0092D3DC /* PXSiriWave.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				CE25A639206B8A6D0092D3DC /* PXSiriWaveExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CE25A659206B8ACE0092D3DC /* libPXSiriWave.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libPXSiriWave.a;
+			remoteRef = CE25A658206B8ACE0092D3DC /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE25A638206B8A6D0092D3DC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE25A64A206B8A6D0092D3DC /* LaunchScreen.storyboard in Resources */,
+				CE25A647206B8A6D0092D3DC /* Assets.xcassets in Resources */,
+				CE25A645206B8A6D0092D3DC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE25A636206B8A6D0092D3DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE25A642206B8A6D0092D3DC /* ViewController.m in Sources */,
+				CE25A64D206B8A6D0092D3DC /* main.m in Sources */,
+				CE25A63F206B8A6D0092D3DC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE25A643206B8A6D0092D3DC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE25A644206B8A6D0092D3DC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE25A648206B8A6D0092D3DC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE25A649206B8A6D0092D3DC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE25A64E206B8A6D0092D3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE25A64F206B8A6D0092D3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE25A651206B8A6D0092D3DC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B2E6SC523;
+				INFOPLIST_FILE = PXSiriWaveExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PX.PXSiriWaveExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE25A652206B8A6D0092D3DC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8B2E6SC523;
+				INFOPLIST_FILE = PXSiriWaveExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = PX.PXSiriWaveExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE25A635206B8A6D0092D3DC /* Build configuration list for PBXProject "PXSiriWaveExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE25A64E206B8A6D0092D3DC /* Debug */,
+				CE25A64F206B8A6D0092D3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE25A650206B8A6D0092D3DC /* Build configuration list for PBXNativeTarget "PXSiriWaveExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE25A651206B8A6D0092D3DC /* Debug */,
+				CE25A652206B8A6D0092D3DC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE25A632206B8A6D0092D3DC /* Project object */;
+}
