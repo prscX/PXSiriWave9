@@ -13,13 +13,13 @@
 		CE25A647206B8A6D0092D3DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE25A646206B8A6D0092D3DC /* Assets.xcassets */; };
 		CE25A64A206B8A6D0092D3DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE25A648206B8A6D0092D3DC /* LaunchScreen.storyboard */; };
 		CE25A64D206B8A6D0092D3DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE25A64C206B8A6D0092D3DC /* main.m */; };
-		CE25A65E206B93B20092D3DC /* libPXSiriWave.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CE25A659206B8ACE0092D3DC /* libPXSiriWave.a */; };
+		CEA86C05206C7359002EB229 /* libPXSiriWave.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEA86C04206C7355002EB229 /* libPXSiriWave.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		CE25A658206B8ACE0092D3DC /* PBXContainerItemProxy */ = {
+		CEA86C03206C7355002EB229 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CE25A654206B8ACE0092D3DC /* PXSiriWave.xcodeproj */;
+			containerPortal = CEA86BFF206C7355002EB229 /* PXSiriWave.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = CE25A625206B8A340092D3DC;
 			remoteInfo = PXSiriWave;
@@ -37,7 +37,7 @@
 		CE25A649206B8A6D0092D3DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE25A64B206B8A6D0092D3DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE25A64C206B8A6D0092D3DC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		CE25A654206B8ACE0092D3DC /* PXSiriWave.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PXSiriWave.xcodeproj; path = ../PXSiriWave/PXSiriWave.xcodeproj; sourceTree = "<group>"; };
+		CEA86BFF206C7355002EB229 /* PXSiriWave.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = PXSiriWave.xcodeproj; path = ../PXSiriWave.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,7 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE25A65E206B93B20092D3DC /* libPXSiriWave.a in Frameworks */,
+				CEA86C05206C7359002EB229 /* libPXSiriWave.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,15 +88,15 @@
 		CE25A653206B8ACD0092D3DC /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CE25A654206B8ACE0092D3DC /* PXSiriWave.xcodeproj */,
+				CEA86BFF206C7355002EB229 /* PXSiriWave.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		CE25A655206B8ACE0092D3DC /* Products */ = {
+		CEA86C00206C7355002EB229 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE25A659206B8ACE0092D3DC /* libPXSiriWave.a */,
+				CEA86C04206C7355002EB229 /* libPXSiriWave.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -149,8 +149,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = CE25A655206B8ACE0092D3DC /* Products */;
-					ProjectRef = CE25A654206B8ACE0092D3DC /* PXSiriWave.xcodeproj */;
+					ProductGroup = CEA86C00206C7355002EB229 /* Products */;
+					ProjectRef = CEA86BFF206C7355002EB229 /* PXSiriWave.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -161,11 +161,11 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		CE25A659206B8ACE0092D3DC /* libPXSiriWave.a */ = {
+		CEA86C04206C7355002EB229 /* libPXSiriWave.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
 			path = libPXSiriWave.a;
-			remoteRef = CE25A658206B8ACE0092D3DC /* PBXContainerItemProxy */;
+			remoteRef = CEA86C03206C7355002EB229 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
