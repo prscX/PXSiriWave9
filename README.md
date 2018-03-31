@@ -17,7 +17,7 @@
 
 `pod init`
 
-`pod 'PXSiriWave', '~>0.0.1'
+`pod 'PXSiriWave', '~> 0.0'`
 
 
 ## Usage
