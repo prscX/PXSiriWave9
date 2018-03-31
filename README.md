@@ -1,7 +1,7 @@
 # PXSiriWave9: Objective-C
 
 <p align="center">
-  <img src="./assets/siriwave9.gif" width="600" height="300" />
+  <img src="https://raw.githubusercontent.com/prscX/PXSiriWave9/master/assets/siriwave9.gif" width="600" height="300" />
 </p>
 
 
