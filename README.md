@@ -17,7 +17,7 @@
 
 `pod init`
 
-`pod 'PXSiriWave',:git => 'https://github.com/prscX/PXSiriWave9.git', :commit =>'bd109dd'`
+`pod 'PXSiriWave', '~>0.0.1'
 
 
 ## Usage
