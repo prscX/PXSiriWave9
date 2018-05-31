@@ -154,6 +154,10 @@ static NSArray *kDefaultColors;
         CGContextDrawRadialGradient(context, gradient, center, width2 , center, h * 0.3, kCGGradientDrawsAfterEndLocation);
         
         CGContextRestoreGState(context);
+        
+        CGPathRelease(path);
+        CGColorSpaceRelease(colorSpaceRef);
+        CGGradientRelease(gradient);
     }
 }
 
